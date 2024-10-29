@@ -1,0 +1,270 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
+  
+  /* Header Section */
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+  }
+  
+  /* Hero Section */
+  
+  .hero {
+    background-image: linear-gradient(to bottom, #e2dcbd, #acaf8d);
+    background-size: 90% 300px;
+    background-position: 10% 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    top: auto;
+    text-align: center;
+  }
+  
+  .hero button {
+    background-color: #395873;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .hero button:hover {
+    background-color: #23527c;
+  }
+  
+  .Hero-IMAGE {
+    width: 60%;
+    height: auto;
+    margin-top: 70px;
+    position: relative;
+  }
+  
+  /* Features Section */
+  
+  .features {
+    background-color: #f9f9f9;
+    padding: 2em;
+  }
+  
+  .features h2 {
+    margin-bottom: 10px;
+  }
+  
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .feature {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .feature h3 {
+    margin-bottom: 10px;
+  }
+  
+  /* Testimonials Section */
+  
+  .testimonials {
+    background-color: #333;
+    color: #fff;
+    padding: 2em;
+  }
+  
+  .testimonials h2 {
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .testimonial {
+    background-color: #444;
+    padding: 20px;
+    border: 1px solid #555;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial h3 {
+    margin-bottom: 10px;
+  }
+  
+  /* About Section */
+  
+  .about {
+    background-color: #efd4de;
+    padding: 2em;
+  }
+  
+  .about h2 {
+    margin-bottom: 10px;
+  }
+  
+  .about p {
+    margin-bottom: 20px;
+  }
+  
+  /* Services Section */
+  
+  .services {
+    background-color: #cea6a6;
+    color: #fff;
+    padding: 2em;
+    font-weight: bolder;
+    
+  }
+  
+  .services h2 {
+    margin-bottom: 10px;
+  }
+  
+  .services ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .services li {
+    margin-bottom: 10px;
+  }
+  
+  /* Gallery Section */
+  
+  .gallery {
+    background-color: #f3f8e0;
+    padding: 2em;
+  }
+  
+  .gallery h2 {
+    margin-bottom: 10px;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Section */
+  
+  #contact {
+    background-color: #d0b0b0;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    margin-bottom: 10px;
+  }
+  
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  footer {
+    background-color: #b97b7b;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+    clear: both;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin-bottom: 5px;
+
+  }
+
+  
+  footer .copyright {
+    font-size: 10px;
+    color: #efe4e4;
+  }
+  
+    
